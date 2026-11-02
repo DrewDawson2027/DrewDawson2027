@@ -10,7 +10,7 @@ An open-source Claude Code add-on that blocks wasteful AI agent actions before t
 
 ### Agent Completion System
 
-A system that blocks AI agents from claiming a task is done until every required part has proof attached. It connects 4 agent runtimes (Codex, Claude Code, Hermes, Aside) to one shared append-only evidence ledger, and it has tracked 7,502 task contracts and 585,899 requirements while blocking 7,056 attempts to finish without full proof. It took 13K lines of Python and 483 tests, and I left 8 metrics blank until real telemetry could measure each one. The code is private, so this write-up is the public record.
+A system that blocks AI agents from claiming a task is done until every required part has proof attached. It connects 4 agent runtimes (Codex, Claude Code, Hermes, Aside) to one shared append-only evidence ledger. It has tracked 7,502 task contracts and 585,899 requirements, and it has blocked 7,056 attempts to finish without full proof. It took 13K lines of Python and 483 tests, and I left 8 metrics blank until real telemetry could measure each one. The code is private, so this write-up is the public record.
 
 ### [SkillTrace](https://drewdawson2027.github.io)
 
